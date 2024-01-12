@@ -45,7 +45,7 @@ public class InsulinGameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        Debug.Log($"Current scene: {GameSceneManager.Instance.currentScene} - {(int)GameSceneManager.Instance.currentScene}");
+        //Debug.Log($"Current scene: {GameSceneManager.Instance.currentScene} - {(int)GameSceneManager.Instance.currentScene}");
         
         if (scene.buildIndex == (int)GameSceneManager.Scenes.STARTMENU)     // if scene is start menu
         {

@@ -580,7 +580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6778353117425238912, guid: ce17c2c684a4b8b439757e0a3fc18cf4, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6778353117425238912, guid: ce17c2c684a4b8b439757e0a3fc18cf4, type: 3}
       propertyPath: spawn_rate
@@ -2149,6 +2149,10 @@ PrefabInstance:
     - target: {fileID: 1633099310617580384, guid: bca5cba1979d09c49b51f8e09c45086c, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4730409914729652897, guid: bca5cba1979d09c49b51f8e09c45086c, type: 3}
+      propertyPath: m_Constraints
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 4952710231881178314, guid: bca5cba1979d09c49b51f8e09c45086c, type: 3}
       propertyPath: m_Enabled

@@ -37,7 +37,7 @@ public class TutorialManager : MonoBehaviour
     void Update()
     {
         CheckLines();
-        Debug.Log(tutorialStep);
+        // Debug.Log(tutorialStep);
     }
 
     void CheckLines()

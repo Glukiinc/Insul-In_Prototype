@@ -8,7 +8,8 @@ public class GameSceneManager : MonoBehaviour
     public enum Scenes
     {
         STARTMENU,
-        INSULINBALLTEST 
+        INSULINBALLTEST,
+        INSULINBALLTUTORIAL 
     }
 
     public Scenes currentScene { get; private set; }
@@ -39,6 +40,11 @@ public class GameSceneManager : MonoBehaviour
     public void StartGame()
     {
         LoadScene(Scenes.INSULINBALLTEST);
+    }
+
+    public void EnterTutorial()
+    {
+        LoadScene(Scenes.INSULINBALLTUTORIAL);
     }
 
     public void ReturnToStartMenu()

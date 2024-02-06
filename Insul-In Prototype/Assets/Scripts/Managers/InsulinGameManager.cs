@@ -10,6 +10,7 @@ public class InsulinGameManager : MonoBehaviour
         STARTMENU,
         PAUSED,
         PLAYING,
+        TUTORIAL,
         GAMEOVER
     }
 
@@ -59,12 +60,23 @@ public class InsulinGameManager : MonoBehaviour
             if (Time.timeScale != 1)
                 Time.timeScale = 1;
         }
+        else if(scene.buildIndex == (int)GameSceneManager.Scenes.INSULINBALLTUTORIAL)
+        {
+            currentState = GAMESTATE.TUTORIAL;
+            if (Time.timeScale != 1)
+                Time.timeScale = 1;
+        }
     }
 
 
     public void StartGame()
     {
         GameSceneManager.Instance.StartGame();
+    }
+
+    public void EnterTutorial()
+    {
+        GameSceneManager.Instance.EnterTutorial();
     }
 
     public void ReturnToStartMenu()

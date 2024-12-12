@@ -435,6 +435,7 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
@@ -716,6 +717,10 @@ PrefabInstance:
     - target: {fileID: 4223677291876195788, guid: 3d8f1447cd082ba4a879a1026154184a, type: 3}
       propertyPath: m_Name
       value: StartMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 4305165483807946308, guid: 3d8f1447cd082ba4a879a1026154184a, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: EnterTutorial
       objectReference: {fileID: 0}
     - target: {fileID: 7904042085775961235, guid: 3d8f1447cd082ba4a879a1026154184a, type: 3}
       propertyPath: m_Pivot.x
